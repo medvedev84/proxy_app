@@ -331,7 +331,7 @@ class WywalletController < ApplicationController
 		
 		def get_savon_client 
 			client = Savon::Client.new do
-			endpoint $test_url2
+			endpoint $test_url
 			namespace $namespace
 			env_namespace :soapenv
 			namespace_identifier :map		
