@@ -27,7 +27,8 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'mysql2'	
+  #gem 'sqlite3'
 end
 
 # To use ActiveModel has_secure_password

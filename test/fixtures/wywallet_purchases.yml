@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  acquirer_id: MyString
+  agreement_id: MyString
+  transmission_time: MyString
+  client_ip: MyString
+  postback_url: MyString
+  postback_timeout: 1
+  amount: 1
+  vat_amount: 1
+  currency_iso: MyString
+  client_id_type: MyString
+  client_id: MyString
+  order_id: MyString
+  reconciliation_time: MyString
+  product_id: MyString
+  description: MyString
+  custom_parameters: MyString
+  vat_format: MyString
+  account_name: 
+  transaction_id: MyString
+  batch_id: 1
+
+two:
+  acquirer_id: MyString
+  agreement_id: MyString
+  transmission_time: MyString
+  client_ip: MyString
+  postback_url: MyString
+  postback_timeout: 1
+  amount: 1
+  vat_amount: 1
+  currency_iso: MyString
+  client_id_type: MyString
+  client_id: MyString
+  order_id: MyString
+  reconciliation_time: MyString
+  product_id: MyString
+  description: MyString
+  custom_parameters: MyString
+  vat_format: MyString
+  account_name: 
+  transaction_id: MyString
+  batch_id: 1

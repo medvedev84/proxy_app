@@ -4,6 +4,7 @@ ProxyApp::Application.routes.draw do
 	match '/wywallet/reversal', :to => 'wywallet#reversal'
 	match '/wywallet/credit', :to => 'wywallet#credit'
 	match '/wywallet/checkorder', :to => 'wywallet#checkorder'
+	match '/wywallet/incorrect', :to => 'wywallet#incorrect'
 	
   # The priority is based upon order of creation:
   # first created -> highest priority.
